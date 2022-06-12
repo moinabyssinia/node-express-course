@@ -7,8 +7,10 @@
 // they are 2 or 3 folders up
 const names = require('./04-names')
 const func = require('./05-utils')
+const data  = require('./06-alternative-flavor')
+require('./07-mind-grenade')
 
-console.log(names);
 
-
-func(names[0])
+func(names['pal3'])
+func(names['pal4'])
+func(names['pal5'])
